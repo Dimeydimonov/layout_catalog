@@ -221,7 +221,7 @@ ul {
     text-transform: uppercase;
     color: $color-white;
 
-    transition: 0.3s;
+    transition: background $transition-duration, color $transition-duration;
 
     &:hover {
       background: $color-white;
